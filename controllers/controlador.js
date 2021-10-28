@@ -22,7 +22,7 @@ async function registrarJugador(peticion = request, respuesta = response) {
         await insertarJugador(datosPeticion)
         respuesta.status(200).json({
             estado: true,
-            mensaje: "Exito registrando el jugador"
+            mensaje: "Exito registrando el jugador, yeah"
         })
 
 
